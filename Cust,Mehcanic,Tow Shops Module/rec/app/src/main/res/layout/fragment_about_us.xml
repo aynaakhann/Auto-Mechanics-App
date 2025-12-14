@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mech_bgd"
+    tools:context=".aboutUs">
+
+    <ImageView
+        android:layout_width="42dp"
+        android:layout_height="35dp"
+        android:id="@+id/backtohome"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-40dp"
+        android:backgroundTint="#D2FFFFFF"
+        app:cardCornerRadius="32dp"
+        app:cardElevation="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/mech_logo"
+                />
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="  About Us"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+            <TextView
+                android:background="@color/white"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="AutoMechanics is the ultimate solution for your automotive needs. We understand the importance of reliable transportation in today's fast-paced world. That's why we've developed a user-friendly app that connects you with trustworthy mechanics in your area, ensuring a seamless repair experience.\n With AutoMechanics, you no longer have to stress about finding a reputable mechanic, even in unfamiliar territories. Our extensive network of certified mechanics and towing shops guarantees that you receive top-notch service, getting you back on the road safely and swiftly.\nFurthermore, AutoMechanics supports unemployed mechanics and promotes local businesses by providing them with increased visibility and customer reach. We're dedicated to fostering a thriving automotive community.
+
+Choose AutoMechanics today and experience the convenience, reliability, and peace of mind that comes with our app. Get back on the road, worry-free.\n              Our main objective is to provide a convenient and reliable solution for people to connect with mechanics quickly and easily, addressing the challenges of finding a trustworthy mechanic, improving safety on the road, and creating employment opportunities for mechanics.
+"
+                android:textSize="14dp"
+                >
+
+            </TextView>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_gravity="center"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="\n\n"></TextView>
+
+                <TextView
+                    android:id="@+id/contactnumber"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="For any query, Email at 'automechanics@gmail.com'"
+                    android:textSize="13dp"
+                    android:textColor="@color/end_red"
+                    ></TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

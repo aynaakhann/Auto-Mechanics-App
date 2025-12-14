@@ -1,0 +1,100 @@
+<resources>
+
+    <string name="app_name" translatable="false">Map</string>
+    <string name="title_activity_maps" translatable="false">MapsActivity</string>
+    <string name="OpenDrawer" translatable="false">Open navigation drawer</string>
+    <string name="CloseDrawer" translatable="false">Open navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="change_language">Change Language</string>
+    <string name="enter_as">Enter As:</string>
+    <string name="guest">Guest</string>
+    <string name="user">User</string>
+    <string name="admin">Admin</string>
+    <string name="next">Next</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="doesn_t_have_an_account">Doesn\'t have an account?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="username">Username</string>
+    <string name="full_name">Full Name</string>
+    <string name="cnic">Cnic</string>
+    <string name="select_services_you_can_provide">Select services you can provide</string>
+    <string name="register">Register</string>
+    <string name="already_a_member">Already a member ?</string>
+    <string name="owner_name">Owner name</string>
+    <string name="shop_name">Shop_name</string>
+    <string name="registration_no_shop">Registration No.(shop)</string>
+    <string name="registration_picture">Registration picture</string>
+    <string name="home">Home</string>
+    <string name="my_jobs">My Jobs</string>
+    <string name="help">Help</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="sign_out">Sign out</string>
+    <string name="activities">Activities</string>
+    <string name="profile">Profile</string>
+    <string name="offline">Offline</string>
+    <string name="online">Online</string>
+    <string name="around_you">Around You</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_mech_setting">mech_SettingActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_main">Leanback MainActivity</string>
+    <string name="browse_title">Videos by Your Company</string>
+    <string name="related_movies">Related Videos</string>
+    <string name="grid_view">Grid View</string>
+    <string name="error_fragment">Error Fragment</string>
+    <string name="personal_settings">Personal Settings</string>
+    <string name="watch_trailer_1">Watch trailer</string>
+    <string name="watch_trailer_2">FREE</string>
+    <string name="rent_1">Rent By Day</string>
+    <string name="rent_2">From $1.99</string>
+    <string name="buy_1">Buy and Own</string>
+    <string name="buy_2">AT $9.99</string>
+    <string name="movie">Movie</string>
+
+    <!-- Error messages -->
+    <string name="error_fragment_message">An error occurred</string>
+    <string name="dismiss_error">Dismiss</string>
+    <string name="mechanic">Mechanic</string>
+    <string name="customer">Customer</string>
+    <string name="towing_workshop">Towing Workshop</string>
+    <string name="email_address">Email Address</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="oil_filter_change">Oil/Filter Change</string>
+    <string name="new_tires">New Tires</string>
+    <string name="battery_replacement">Battery Replacement</string>
+    <string name="replace_air_filter">Replace Air-Filter</string>
+    <string name="brake_work">Brake Work</string>
+    <string name="testing_system">Testing System</string>
+    <string name="engine_tune_up">Engine Tune-up</string>
+    <string name="wheel_balance">Wheel Balance</string>
+    <string name="title_activity_after_accept_request_of_towing_for_cust">
+        after_accept_request_of_towing_for_cust
+    </string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_main_activity3rec">MainActivity3rec</string>
+    <string name="services_history">Services History</string>
+    <string name="balance">balance</string>
+    <string name="about_us">About Us</string>
+    <string name="other">Other</string>
+
+</resources>

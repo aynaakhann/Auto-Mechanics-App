@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".towingcategory">
+    <androidx.cardview.widget.CardView
+        android:layout_width="2.4in"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="7dp"
+        android:layout_margin="19dp"
+        android:gravity="center"
+        app:cardElevation="7dp"
+        android:background="#F0F0F0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:id="@+id/towingCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:background="#F0F0F0"
+                android:elevation="30dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:text="Towing Service"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"></TextView>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:src="@drawable/towing_image" />
+
+
+            </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

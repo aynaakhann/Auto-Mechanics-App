@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+    </group>
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_customerdetails"
+            android:icon="@drawable/customer"
+            android:title="Customer Details" />
+        <item
+            android:id="@+id/nav_mechanicdetails"
+            android:icon="@drawable/mechanic"
+            android:title="Mechanic Details"
+            />
+
+        <item
+            android:id="@+id/nav_towingdetails"
+            android:icon="@drawable/tow"
+            android:title="Towing Details"
+            />
+    </group>
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item android:title="Registration Requests">
+            <menu>
+                <item
+                    android:id="@+id/nav_requestmechanic"
+                    android:icon="@drawable/mechanic"
+                    android:title="Mechanic Requests"
+                    />
+                <item
+                    android:id="@+id/nav_requesttowing"
+                    android:icon="@drawable/tow"
+                    android:title="Towing Requests"
+                    />
+            </menu>
+        </item>
+    </group>
+
+    <group
+        android:id="@+id/group22"
+        android:checkableBehavior="single">
+        <item android:title="Account Activation Requests">
+            <menu>
+                <item
+                    android:id="@+id/nav_requestmechanicactivation"
+                    android:icon="@drawable/mechanic"
+                    android:title="Mechanic Requests"
+                    />
+                <item
+                    android:id="@+id/nav_requesttowingactivation"
+                    android:icon="@drawable/tow"
+                    android:title="Towing Requests"
+                    />
+            </menu>
+        </item>
+    </group>
+    <group
+        android:id="@+id/group3"
+        android:checkableBehavior="single">
+        <item android:title="Complains">
+            <menu>
+                <item
+                    android:id="@+id/nav_mechaniccomplaints"
+                    android:icon="@drawable/mechanic"
+                    android:title="Mechanic Complaints" />
+                <item
+                    android:id="@+id/nav_towingcomplaints"
+                    android:icon="@drawable/tow"
+                    android:title="Towing Complains" /></menu>
+        </item>
+    </group>
+    <group
+        android:id="@+id/group4"
+        android:checkableBehavior="single">
+        <item android:title="Blocked Accounts">
+            <menu>
+                <item
+                    android:id="@+id/nav_blocked_accounts_mechanic"
+                    android:icon="@drawable/mechanic"
+                    android:title="Mechanic Blocked Accounts" />
+                <item
+                    android:id="@+id/nav_blocked_accounts_towing"
+                    android:icon="@drawable/tow"
+                    android:title="Towing Blocked Accounts" /></menu>
+        </item>
+    </group>
+    <group
+        android:id="@+id/group5"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Logout" />
+    </group>
+</menu>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mech_bgd"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".towingProfileForCust">
+
+    <ImageView
+        android:id="@+id/mech_image"
+        android:layout_width="200dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/towing_image"
+        android:translationZ="90dp"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="2.7in"
+        android:layout_height="3.8in"
+        app:cardCornerRadius="32dp"
+        android:layout_marginTop="-80dp"
+        android:background="@drawable/edit_text">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="14dp"
+            android:background="@color/white"
+            android:layout_gravity="center_horizontal">
+            <TextView
+                android:id="@+id/shop_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ShopName"
+                android:layout_marginTop="80dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="22dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-10dp"
+                app:cardElevation="10dp"
+
+                android:layout_gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/rating"
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:text="Rating: "
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_gravity="center"
+                            android:id="@+id/rating"
+                            android:text="N/A"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:cardElevation="10dp"
+
+                android:layout_gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/ownerNameForReqProfile"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="17dp"
+
+                        android:text="Owner name"></TextView>
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="    "></TextView>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="0.3in"
+                        android:gravity="center"
+                        android:background="#D0D0D0" />
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="    "></TextView>
+                    <TextView
+                        android:id="@+id/ownerPhoneForReqProfile"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="17dp"
+                        android:text="phone">
+
+                    </TextView>
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/callTowing"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_phone"
+                        android:backgroundTint="@color/white"
+                        app:tint="@color/end_red"
+                        app:fabCustomSize="40dp"
+                        android:layout_gravity="left">
+
+                    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+                    <!--                    <TextView-->
+                    <!--                        android:layout_width="100dp"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:gravity="center"-->
+                    <!--                        android:textSize="17dp"-->
+                    <!--                        android:text="Distance\n4.9"></TextView>-->
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:cardElevation="10dp"
+
+                android:layout_gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/ownerEmailForReqProfile"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="17dp"
+
+                        android:text="Owner Email"></TextView>
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="    "></TextView>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="0.3in"
+                        android:gravity="center"
+                        android:background="#D0D0D0" />
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="    "></TextView>
+                    <TextView
+                        android:id="@+id/shopDistanceForReqProfile"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="17dp"
+                        android:text="Distance"></TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:cardElevation="10dp"
+
+                android:layout_gravity="center">
+            </androidx.cardview.widget.CardView>
+            <Button
+                android:id="@+id/sendrequestbtn"
+                android:layout_width="220dp"
+                android:layout_height="53dp"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/end_red"
+                android:text="send Request"
+                android:textSize="18dp"
+                app:cornerRadius="20dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

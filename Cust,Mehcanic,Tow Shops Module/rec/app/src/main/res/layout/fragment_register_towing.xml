@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="305dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".register_towing">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginLeft="12dp"
+        android:orientation="vertical"
+        >
+    <LinearLayout
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/white"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+
+        >
+
+        <EditText
+            android:id="@+id/owner_name"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/edit_text"
+            android:drawableLeft="@drawable/ic_person"
+            android:drawablePadding="20dp"
+            android:hint="@string/owner_name"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:inputType="text"
+            android:textColorHighlight="@color/cardview_dark_background"
+            android:textSize="16dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="@drawable/edit_text"
+            android:id="@+id/ownercnic"
+            android:drawableLeft="@drawable/cnic"
+            android:drawablePadding="20dp"
+            android:hint="Owner Cnic: 00000-0000000-0"
+            android:padding="10dp"
+            android:maxLength="15"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:inputType="text"
+            android:layout_marginTop="25dp"
+            android:textColorHighlight="@color/cardview_dark_background" />
+        <EditText
+            android:id="@+id/Shop_name"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/edit_text"
+            android:drawableLeft="@drawable/towing"
+            android:drawablePadding="20dp"
+            android:hint="@string/shop_name"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/cardview_dark_background"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/reg_no"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/edit_text"
+            android:drawableLeft="@drawable/ic_cnic"
+            android:drawablePadding="20dp"
+            android:hint="@string/registration_no_shop"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:inputType="number"
+            android:textColorHighlight="@color/cardview_dark_background"
+            android:textSize="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="1in"
+                android:layout_height="wrap_content"
+                android:fontFamily="times"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Shop Registration Picture"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+
+            <ImageView
+                android:id="@+id/teventBrowse"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/form" />
+
+            <TextView
+                android:id="@+id/add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Add +"
+                android:textColor="@color/end_red"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="-30dp"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/submit_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_green_dark" />
+    </LinearLayout>
+        <EditText
+            android:id="@+id/tphone"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/edit_text"
+            android:drawableLeft="@drawable/ic_phone"
+            android:drawablePadding="20dp"
+            android:hint="Phone Number: 0000-0000000"
+            android:inputType="phone"
+            android:padding="10dp"
+            android:maxLength="12"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/cardview_dark_background"
+            android:textSize="16dp" />
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/edit_text"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:drawablePadding="20dp"
+            android:hint="Email Address"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/cardview_dark_background"
+            android:textSize="16dp" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/pass"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:drawablePadding="20dp"
+                android:padding="10dp"
+                android:hint="@string/password"
+                android:background="@drawable/edit_text"
+                android:inputType="textPassword"
+                android:textSize="16dp"
+                android:layout_marginTop="25dp"
+                android:drawableStart="@drawable/ic_password" />
+
+            <ImageView
+                android:id="@+id/tshow_hide_pass"
+                android:layout_width="49dp"
+                android:layout_height="34dp"
+                android:layout_marginLeft="280dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/hide_pass" />
+
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="190dp"
+            android:gravity="center"
+            android:layout_height="53dp"
+            android:layout_marginTop="25dp"
+            android:backgroundTint="@color/end_red"
+            android:text="@string/register"
+            android:textSize="18dp"
+            app:cornerRadius="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:text="@string/already_a_member"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/signin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginBottom="12dp"
+                android:text="Login"
+                android:textAlignment="center"
+                android:textColor="@color/link"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+
+

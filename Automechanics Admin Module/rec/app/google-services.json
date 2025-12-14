@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "244713944318",
+    "firebase_url": "https://automechanics-fd582-default-rtdb.firebaseio.com",
+    "project_id": "automechanics-fd582",
+    "storage_bucket": "automechanics-fd582.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:244713944318:android:29421b73a69148539b61af",
+        "android_client_info": {
+          "package_name": "com.example.map"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "244713944318-voe02sfedk3dl4uhbafo9b610arufnt7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu4JKIcm9mhkZI5msMVeyofgLeVhnB8Xg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "244713944318-voe02sfedk3dl4uhbafo9b610arufnt7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:244713944318:android:a725deb524a55bca9b61af",
+        "android_client_info": {
+          "package_name": "com.example.rec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "244713944318-voe02sfedk3dl4uhbafo9b610arufnt7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu4JKIcm9mhkZI5msMVeyofgLeVhnB8Xg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "244713944318-voe02sfedk3dl4uhbafo9b610arufnt7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

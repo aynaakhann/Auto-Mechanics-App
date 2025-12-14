@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cust_confirm_mechanic">
+
+    <fragment
+        android:id="@+id/polyLinecustMech"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".cust_confirm_towing" />
+<!--    <TextView-->
+<!--        android:id="@+id/timer"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="60dp"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:layout_marginEnd="60dp"-->
+<!--        android:layout_below="@+id/polyLinecustTow"-->
+<!--        android:text="confirm towing vehicle has reached?"-->
+<!--        android:textSize="20dp"-->
+<!--        />-->
+    <Button
+        android:id="@+id/confirmMech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="620dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="@color/end_red"
+        android:text="confirm Mechanic has reached?"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+</RelativeLayout>

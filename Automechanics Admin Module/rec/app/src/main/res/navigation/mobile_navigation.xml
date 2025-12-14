@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.rec.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_customerdetails"
+        android:name="com.example.rec.ui.home.customerdetails"
+        android:label="Customer Details"
+        tools:layout="@layout/fragment_customerdetails" />
+    <fragment
+        android:id="@+id/nav_mechanicdetails"
+        android:name="com.example.rec.ui.home.mechanicdetails"
+        android:label="Mecahnic Details"
+        tools:layout="@layout/fragment_mechanicdetails" />
+    <fragment
+        android:id="@+id/nav_towingdetails"
+        android:name="com.example.rec.ui.home.towingdetails"
+        android:label="Towing Details"
+        tools:layout="@layout/fragment_towingdetails" />
+    <fragment
+        android:id="@+id/nav_requestmechanic"
+        android:name="com.example.rec.requestmechanic"
+        android:label="Mechanic Registration Requests"
+        tools:layout="@layout/fragment_requestmechanic" />
+    <fragment
+        android:id="@+id/nav_requesttowing"
+        android:name="com.example.rec.requesttowing"
+        android:label="Towing Registration Requests"
+        tools:layout="@layout/fragment_requestmechanic"/>
+    <fragment
+        android:id="@+id/nav_requestmechanicactivation"
+        android:name="com.example.rec.mech_acti_req"
+        android:label="Mechanic Activation Requests"
+        tools:layout="@layout/fragment_mech_acti_req" />
+    <fragment
+        android:id="@+id/nav_requesttowingactivation"
+        android:name="com.example.rec.towing_acti_req"
+        android:label="Towing Activation Requests"
+        tools:layout="@layout/fragment_requestmechanic"/>
+    <fragment
+        android:id="@+id/nav_towingcomplaints"
+        android:name="com.example.rec.towingcomplaints"
+        android:label="Towing Complaints"
+        tools:layout="@layout/fragment_towingcomplaints"/>
+    <fragment
+        android:id="@+id/nav_mechaniccomplaints"
+        android:name="com.example.rec.mechaniccomplaints"
+        android:label="Mechanic Complains"
+        tools:layout="@layout/fragment_mechaniccomplaints"/>
+    <fragment
+        android:id="@+id/nav_blocked_accounts_mechanic"
+        android:name="com.example.rec.blockedmech"
+        android:label="Mechanic Blocked Accounts"
+        tools:layout="@layout/fragment_blockedmech"/>
+    <fragment
+        android:id="@+id/nav_blocked_accounts_towing"
+        android:name="com.example.rec.blockedtowshops"
+        android:label="Towing Blocked Accounts"
+        tools:layout="@layout/fragment_blockedtowshops"/>
+</navigation>

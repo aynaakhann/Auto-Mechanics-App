@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/btnHome"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/servhistory"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/services_history" />
+
+    </group>
+        <item
+            android:id="@+id/Balance"
+            android:icon="@drawable/ic_complain"
+            android:title="@string/balance" />
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/aboutus"
+            android:icon="@drawable/ic_complain"
+            android:title="@string/about_us" />
+    </group>
+    <item android:title="@string/other">
+        <menu>
+            <item
+                android:id="@+id/btnSetting"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/settings" />
+            <item
+                android:id="@+id/btnSignout"
+                android:icon="@drawable/ic_signout"
+                android:title="@string/sign_out" />
+
+        </menu>
+    </item>
+</menu>
